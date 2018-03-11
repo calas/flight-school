@@ -5,7 +5,7 @@
   </head>
   <body>
     <p>
-      Host: <%= %(hostname).chomp %>
+      Host: <%= %x(hostname).chomp %>
     </p>
 
     Current status of airports:
